@@ -11,4 +11,8 @@
         <property name="helloMessage" ref = "helloMessageImpl"></property>
     </bean>
 
+    <bean id ="logAop" class="com.torres.study.spring.aop.LogAspect">
+
+    </bean>
+
 </beans>
